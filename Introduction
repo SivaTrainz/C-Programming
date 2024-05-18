@@ -1,0 +1,44 @@
+Basic 
+#include <stdio.h>
+int main()
+{
+    printf("Hello World");
+
+    return 0;
+}
+
+Operators
+1.Arithmetic Operator
+#include <stdio.h>
+
+int main()
+{
+    int a=10;
+    int b=2;
+    int c=a+b;
+    int d=a-b;
+    int e=a*b;
+    int f=a/b;
+    int g=a%b;
+    printf("%d %d %d %d %d",c,d,e,f,g);
+
+    return 0;
+}
+
+
+2.Relational Operator
+#include <stdio.h>
+
+int main()
+{
+    int a=10;
+    int b=2;
+    printf("%d \n", a>b);
+    printf("%d \n", a<b);
+    printf("%d \n", a>=b);
+    printf("%d \n", a<=b);
+    printf("%d \n", a==b);
+    printf("%d \n", a!=b);
+
+    return 0;
+}
